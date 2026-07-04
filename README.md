@@ -1,4 +1,4 @@
-# Fall Detection
+# Watchguard ai
 
 Detects falls in a video using a Roboflow object-detection model
 (`fall-detection-qyulz/2`). Includes a command-line script and a Streamlit app.
