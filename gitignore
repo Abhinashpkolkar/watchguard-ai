@@ -1,0 +1,24 @@
+# --- Secrets: never commit these ---
+.streamlit/secrets.toml
+.env
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Generated / large media (don't commit videos) ---
+fall_output_video.mp4
+fall_output.mp4
+outputs/
+*.avi
+*.mov
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
